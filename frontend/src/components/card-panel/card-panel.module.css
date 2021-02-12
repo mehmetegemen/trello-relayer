@@ -1,0 +1,10 @@
+.card-panel {
+  padding: 1px;
+}
+
+h2 {
+  display: inline-block;
+  margin: 0 0 0 4px;
+  font-size: 1rem;
+  font-weight: 500;
+}

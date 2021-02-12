@@ -1,0 +1,13 @@
+.card-list {
+  background: #FAFAFA;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.card-list:not(:first-child) {
+  margin: 0 0 0 10px;
+}
+
+h1 {
+  padding: 0 30px 0 30px;
+}

@@ -1,0 +1,13 @@
+.card {
+  background: #FDFDFD;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.card-panel {
+  display: flex;
+}
+
+.card-panel > h2 {
+  margin: 0;
+}

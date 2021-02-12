@@ -1,0 +1,20 @@
+version: "3"
+
+services:
+  backend:
+    build:
+      context: ./backend
+    environment:
+      TRELLO_APP_KEY: 2bc5928319fa5ded18ae81799124a63a
+    ports:
+      - "4000:4000"
+  frontend:
+    build:
+      context: ./frontend
+      args:
+        API_URL: http://localhost:4000
+        REACT_APP_TOKEN: empty
+        REACT_APP_TODO_LIST_ID: empty
+        REACT_APP_DONE_LIST_ID: empty
+    ports:
+      - "3000:3000"
